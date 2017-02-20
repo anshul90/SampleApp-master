@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="ranklabel">"Rank : "</string>
+    <string name="countrylabel">"Country : "</string>
+    <string name="populationlabel">"Population : "</string>
+</resources>
