@@ -32,7 +32,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.DataObjectHold
 
     @Override
     public void onBindViewHolder(DataObjectHolder holder, int position) {
-        holder.rank.setText(position + 1 + "");
+        holder.rank.setText(position + 1 + " ");
         holder.country.setText(mDataset.get(position).getCountry());
         holder.population.setText(mDataset.get(position).getPopulation());
         if (!mDataset.get(position).getFlag_image().isEmpty()) {
